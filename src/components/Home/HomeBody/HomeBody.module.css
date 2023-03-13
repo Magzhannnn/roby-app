@@ -1,0 +1,97 @@
+.home-body_developer {
+  width: 17%;
+  text-align: center;
+}
+
+.developer_img1,
+.developer_img2,
+.developer_img3,
+.developer_img4,
+.developer_img5 {
+  background-image: url("../../../image/Frontend.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 10em;
+  height: 10em;
+  margin: 0 auto;
+
+  border-radius: 20px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  cursor: pointer;
+}
+
+.developer_img2 {
+  background-image: url("../../../image/Web_QA.png");
+}
+
+.developer_img3 {
+  background-image: url("../../../image/TeamLead.png");
+}
+
+.developer_img4 {
+  background-image: url("../../../image/Mobile_QA.png");
+}
+
+.developer_img5 {
+  background-image: url("../../../image/SEM.png");
+}
+
+.developer_text {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 1129px) {
+  .developer_img1,
+  .developer_img2,
+  .developer_img3,
+  .developer_img4,
+  .developer_img5 {
+    width: 8em;
+    height: 8em;
+  }
+}
+
+@media (max-width: 900px) {
+  .developer_img1,
+  .developer_img2,
+  .developer_img3,
+  .developer_img4,
+  .developer_img5 {
+    width: 20em;
+    height: 20em;
+  }
+
+  .developer_text {
+    font-size: 30px;
+  }
+
+  .home-body_developer {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 580px) {
+  .developer_img1,
+  .developer_img2,
+  .developer_img3,
+  .developer_img4,
+  .developer_img5 {
+    width: 10em;
+    height: 10em;
+  }
+
+  .developer_text {
+    font-size: 20px;
+  }
+
+  .home-body_developer {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}

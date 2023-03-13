@@ -1,0 +1,13 @@
+.change {
+	margin-top: 50px;
+}
+
+.change_title {
+	text-align: center;
+}
+
+.change_btn {
+	display: flex;
+	justify-content: right;
+	margin: 20px 13px;
+}

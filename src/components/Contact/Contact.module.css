@@ -1,0 +1,151 @@
+.contact-head {
+  margin-top: 90px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.contact-head_title {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Poppins";
+  letter-spacing: -3px;
+  word-spacing: 0.3em;
+}
+
+.contact-head_text {
+  color: rgb(112, 112, 112);
+  font-family: "Poppins";
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+.contact-body {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+
+.contact-body_phone,
+.contact-body_map,
+.contact-body_email {
+  text-align: center;
+  margin-right: 15em;
+}
+
+.contact-body_map {
+  margin-right: 10em;
+}
+.contact-body_email {
+  margin-right: 0;
+}
+
+.phone-img,
+.map-img,
+.email-img {
+  background-image: url("../../image/smartphone.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 8em;
+  height: 9em;
+  margin: 0 auto;
+}
+
+.map-img {
+  background-image: url("../../image/map.png");
+  height: 8em;
+}
+
+.map-img {
+  cursor: pointer;
+}
+
+.email-img {
+  background-image: url("../../image/email.jpg");
+  width: 14em;
+  height: 8em;
+  margin-bottom: 27px;
+}
+
+.phone-text,
+.map-text,
+.email-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.map-text {
+  margin-top: 26px;
+}
+
+.email-text {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+.email-text:hover {
+  cursor: pointer;
+  color: rgb(112, 112, 112);
+}
+
+.contact-foot {
+  width: 795px;
+  margin: 50px auto;
+  text-align: center;
+
+  color: rgb(112, 112, 112);
+  font-family: "Poppins";
+  font-size: 13px;
+}
+
+@media (min-height: 800px) {
+  .contact-head {
+    margin-top: 10em;
+  }
+  .contact-body {
+    margin-top: 8em;
+  }
+  .contact-foot {
+    margin-top: 8em;
+  }
+}
+
+@media (max-width: 1203px) {
+  .map-text {
+    width: 200px;
+  }
+
+  .contact-body_phone {
+    margin-right: 10em;
+  }
+  .contact-body_map {
+    margin-right: 7em;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact-foot {
+    width: 90%;
+  }
+}
+
+@media (max-width: 815px) {
+  .contact-body {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-body_phone,
+  .contact-body_map,
+  .contact-body_email {
+    margin-right: 0;
+    margin-bottom: 5em;
+  }
+
+  .map-text {
+    width: 100%;
+    text-align: center;
+  }
+}

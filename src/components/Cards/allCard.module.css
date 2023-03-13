@@ -1,0 +1,29 @@
+.card_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_item {
+  width: 22%;
+  height: 300px;
+  background-color: green;
+  margin-right: 1.333%;
+
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .card_item {
+    width: 45%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card_item {
+    width: 100%;
+  }
+}

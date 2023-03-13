@@ -1,0 +1,23 @@
+.block {
+  padding: 0.5em 0.6em;
+}
+
+.my_input {
+  padding: 0.5em 1em;
+  width: 90%;
+
+  font-size: 20px;
+}
+
+
+@media (max-width: 1000px) {
+  .my_input {
+    width: 85%;
+  }
+}
+
+@media (max-width: 800px) {
+  .my_input {
+    width: 80%;
+  }
+}

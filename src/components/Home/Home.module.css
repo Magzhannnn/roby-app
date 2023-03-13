@@ -1,0 +1,92 @@
+.home-head {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-head_text {
+  width: 55%;
+  font-size: 20px;
+  margin-right: 3em;
+}
+
+.home-head_img {
+  background-image: url("../../image/man_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  width: 120px;
+  height: 157px;
+}
+
+.home-body {
+  margin-top: 100px;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+
+.home-line {
+  width: 80%;
+  padding-top: 1px;
+  background-color: #000;
+}
+
+.home-footer {
+  margin: 30px 0;
+  padding-top: 30px;
+  border-radius: 10px;
+  background-color: #f4f6f5c0;
+}
+
+.home-footer_title {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 100px;
+}
+
+.home-footer_text {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+@media (min-height: 1100px) {
+  .home-head_text {
+    font-size: 30px;
+  }
+  .home-head_img {
+    width: 240px;
+    height: 277px;
+  }
+}
+
+@media (max-width: 900px) {
+  .home-head_text {
+    font-size: 25px;
+  }
+
+  .home-head_img {
+    width: 200px;
+    height: 237px;
+  }
+
+  .home-body {
+    display: block;
+  }
+}
+
+@media (max-height: 580px) {
+  .home-head_text {
+    font-size: 20px;
+  }
+  .home-head_img {
+    width: 120px;
+    height: 157px;
+  }
+}

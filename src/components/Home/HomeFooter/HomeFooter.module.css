@@ -1,0 +1,65 @@
+.home-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content-white,
+.content-yellow {
+  position: absolute;
+  background-color: rgba(0, 0, 255, 0.2);
+  padding: 0.5em 1.5em;
+  transform: rotate(-2deg);
+  top: -2px;
+  left: -8px;
+}
+
+.content-yellow {
+  position: absolute;
+  background-color: yellow;
+  padding: 0.5em 113px;
+  top: 117px;
+  left: -4px;
+}
+
+.home-footer_content,
+.content-white_text,
+.content-yellow_text {
+  font-family: "Poppins";
+  font-weight: 900;
+  font-size: 55.6px;
+  line-height: 57px;
+  width: 100px;
+  position: relative;
+}
+
+.home-footer_img {
+  background-image: url("../../../image/man.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 21em;
+  height: 19em;
+}
+
+@media (max-width: 1129px) {
+  .home-footer {
+    width: 95%;
+  }
+  .home-footer_img {
+    width: 15em;
+    height: 13em;
+  }
+}
+
+@media (max-width: 800px) {
+  .home-footer_content {
+    margin-right: 100px;
+  }
+  .home-footer_img {
+    display: none;
+  }
+}
